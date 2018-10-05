@@ -1,0 +1,27 @@
+@import "../../assets/css/variable/index.css";
+/*@import "../../assets/css/fonts/font.css";*/
+@import "../../assets/css/common/animate.css";
+
+.userinfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  .userinfo-avatar {
+    width: 64px;
+    height: 64px;
+    margin: 10px;
+    border-radius: 50%;
+    background: url("../../assets/sprites/mall_icon_skin.png") no-repeat 5px 5px;
+  }
+
+  .userinfo-nickname {
+    color: #aaa;
+    @extend .slideInRight;
+  }
+}
+
+.usermotto {
+  margin-top: 200px;
+  background: url("../../assets/sprites/mall_icon_Set.png") no-repeat 5px 5px;
+}
